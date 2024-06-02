@@ -6,3 +6,5 @@
 # zinc
 
 git submodule update --init --recursive
+
+dotnet build && dotnet run --project .\src\Game\Game.csproj
