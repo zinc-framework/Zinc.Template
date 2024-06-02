@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F496CA20-9972-41A6-8CF8-7B9510BF2E9F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Game", "src\Game\Game.csproj", "{E014F709-DB19-4723-AD79-242B80C85601}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zinc", "src\Zinc\Zinc.csproj", "{3C6CA973-5A72-47A8-9A30-13E554A5A82E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E014F709-DB19-4723-AD79-242B80C85601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E014F709-DB19-4723-AD79-242B80C85601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E014F709-DB19-4723-AD79-242B80C85601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E014F709-DB19-4723-AD79-242B80C85601}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C6CA973-5A72-47A8-9A30-13E554A5A82E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C6CA973-5A72-47A8-9A30-13E554A5A82E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C6CA973-5A72-47A8-9A30-13E554A5A82E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C6CA973-5A72-47A8-9A30-13E554A5A82E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E014F709-DB19-4723-AD79-242B80C85601} = {F496CA20-9972-41A6-8CF8-7B9510BF2E9F}
+		{3C6CA973-5A72-47A8-9A30-13E554A5A82E} = {F496CA20-9972-41A6-8CF8-7B9510BF2E9F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5AB85BD-D442-4B44-BB8C-A5B3A638C585}
+	EndGlobalSection
+EndGlobal
