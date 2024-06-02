@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="src/Zinc/logos/logo_github_white.png">
-  <img alt="zinc logo" src="src/Zinc/logos/logo_github_black.png">
+  <source media="(prefers-color-scheme: dark)" srcset="meta/banner_white.png">
+  <img alt="zinc logo" src="meta/banner_black.png">
 </picture>
 
 # zinc
