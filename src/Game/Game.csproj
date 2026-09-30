@@ -7,6 +7,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <!-- Packaging, read by `zinc package` (see Zinc.Publish.targets). A bundle ID is needed to sign. -->
+    <!-- <ZincAppName>My Game</ZincAppName> -->
+    <!-- <ZincBundleId>com.yourstudio.mygame</ZincBundleId> -->
+    <!-- <ZincAppIcon>res/icon.png</ZincAppIcon> -->
+  </PropertyGroup>
+
   <ItemGroup>
     <AdditionalFiles Include="..\..\res\**\*"/>
     <Content Include="..\..\res\**\*">
@@ -27,5 +34,8 @@
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
   </ItemGroup>
+
+  <!-- Trims Zinc's native libs to the published platform and writes zinc.publish.json for `zinc package`. -->
+  <Import Project="..\Zinc\Zinc.Publish.targets" />
 
 </Project>
