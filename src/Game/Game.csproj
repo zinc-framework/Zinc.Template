@@ -5,6 +5,11 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <!-- Published builds drop the code nothing uses, which cuts the packaged app to about a third
+         of its size. Code that reaches members only through reflection may need them kept: publish
+         warnings IL2xxx point at it. -->
+    <PublishTrimmed>true</PublishTrimmed>
   </PropertyGroup>
 
   <PropertyGroup>
